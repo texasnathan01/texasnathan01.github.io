@@ -2,18 +2,70 @@
 <html>
     <head>
         <style>
-            body {background-color:maroon;margin:50}
-            #divheader {background-color:dimgray;}
-            #divbody {background-color:white;margin:50;}
-            h1 {color:black;margin:0}
+
+            #divheader {
+              background-color:dimgray;
+            }
+            #divbody {
+              background-color:white;
+              margin:50;
+            }
+            #divbuttons {
+              backgroundcolor:black
+            }
+            body {background-color:maroon;
+              margin:50
+            }
+            a.buttonlink {
+              background-color:red
+              color:white
+              padding:15px 25px
+              text-align: center;
+              text-decoration: none;
+            }
+
+            a.asdf:link, a.asdf:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.asdf:hover, a.asdf:active {
+  background-color: red;
+}
+            h1 {color:black;margin:0;text-align:center}
             #p01 {border: 1px solid powderblue;margin-top:0}
             #p02 {color:orange;margin:0}
             p.ParaUni {color:purple;border:1px blue;}
+
+                        button.subpage {
+              background-color:maroon;
+              color:white;
+              text-align:center;
+              padding: 0px;
+              display:inline-block;
+              border:2px solid black;
+              margins:0;
+              font-size:20px;
+              border-radius:1px;
+              cursor:pointer;
+              transition-duration:0.4s;
+              float: left;}
+             button.subpage:hover{
+              background-color:white;
+              color: black;
+            }
     </style>
     </head>
     <body>
         <div id="divheader">
             <h1>Test</h1>
+        </div>
+        <div id="divbuttons">
+            <a class="asdf" href="index.html">Home</a>
         </div>
         <div id="divbody">
             <p id="p01">This is as far as I have gotten</p>

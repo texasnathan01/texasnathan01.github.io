@@ -2,23 +2,46 @@
 <html>
     <head>
         <style>
-            body {background-color:maroon;margin:50}
-            #divheader {background-color:dimgray;}
-            #divbody {background-color:white;margin:50;}
-            h1 {color:black;margin:0}
-            p.paragraph {color:purple;border:1px blue;margin-top:0}
-            p.subpage {color:black;border:2px black;}
+            body {
+              background-color:maroon;margin:50}
+            #divheader {
+              background-color:dimgray;}
+            #divbody {
+              background-color:white;}
+            #divbuttons {
+              background-color:white;}
+            h1 {
+              color:black;margin:0;text-align:center}
+            a.buttonlink:link, a.buttonlink:visited{
+              background-color: #f44336;
+              color: white;
+              padding: 15px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              border: 3px solid black;
+            }
+            a.buttonlink:hover, a.buttonlink.active {
+              background-color:white;
+              color:black;
+            }
+            p.paragraph {
+              color:purple;margin-top:0}
+
+
+            }
     </style>
     </head>
     <body>
         <div id="divheader">
             <h1>Nathan's Website</h1>
         </div>
+        <div id="divbuttons">
+            <a class="buttonlink" href="Test.html">Test</a>
+            <a class="buttonlink" href="AboutMe.html">About Me</a>
+        </div>
         <div id="divbody">
-            <p class="paragraph">unified paragraph</p>
-            <p class="paragraph">unified paragraph2</p>
-            <p class="subpage"><a href="AboutMe.html">About Me</a></p>
-            <p class="subpage"><a href="Test.html">Test</a></p>
+            <p class="paragraph">Welcome to my website!</p>
         </div>
     </body>
 </html>
