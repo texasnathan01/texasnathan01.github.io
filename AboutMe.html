@@ -2,25 +2,47 @@
 <html>
     <head>
         <style>
-            body {background-color:maroon;margin:50}
-            #divheader {background-color:dimgray;}
-            #divbody {background-color:white;margin:50;}
-            h1 {color:black;margin:0;text-align:center}
-            #p01 {border: 1px solid powderblue;margin-top:0}
-            #p02 {color:orange;margin:0}
-            p.ParaUni {color:purple;border:1px blue;}
+            body {
+              background-color:#9A0029;margin:10}
+            #divheader {
+              background-color:#184a45ff;}
+            #divbody {
+              background-color:#7AA5B6;}
+            #divbuttons {
+              background-color:#3D778D;}
+            h1 {
+              color:white;margin:0;text-align:center}
+            a.buttonlink:link, a.buttonlink:visited{
+              background-color: #9A0029;
+              color: white;
+              padding: 15px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              border: 2px solid black;
+            }
+            a.buttonlink:hover, a.buttonlink.active {
+              background-color:#E3BF84;
+              color:black;
+            }
+            p.paragraph {
+              color:purple;
+              margin-top:0
+            }
     </style>
     </head>
     <body>
         <div id="divheader">
-            <h1>About me</h1>
+            <h1>About Me</h1>
+        </div>
+        <div id="divbuttons">
+            <a class="buttonlink" href="index.html">Home</a>
+            <a class="buttonlink" href="AboutMe.html">About Me</a>
+            <a class="buttonlink" href="Contact.html">Contact Me</a>
+            <a class="buttonlink" href="Test.html">Test</a>
         </div>
         <div id="divbody">
-            <p id="p01">This is as far as I have gotten</p>
-            <p id="p02"><b>It is a</b> work in progress </p>
-            <p class="ParaUni">unified paragraph</p>
-            <p class="ParaUni">unified paragraph2</p>
-            <p><a href="index.html">Home</a></p>
+            <p class="paragraph">I am a dude. This is my first website</p>
         </div>
     </body>
 </html>
