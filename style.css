@@ -1,5 +1,5 @@
 body {
-  background-color:#9A0029;margin:10
+  background-color:#9A0029;margin:5
 }
 #divheader {
   background-color:#184a45ff;
@@ -30,10 +30,16 @@ a.buttonlink:hover, a.buttonlink.active {
 }
 h3 {
   color:black;
-  margin-top:0
+  margin-top:0px;
+  margin-bottom:0px;
 }
 p.paragraph {
   color:black;
   text-align:left;
-  padding-left:15px;
+}
+ul.paragraphlist {
+ margin-left: 40px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+ padding: 0px;
 }
