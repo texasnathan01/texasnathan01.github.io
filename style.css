@@ -1,32 +1,47 @@
 body {
   background-color:#9A0029;margin:5
 }
+
 #divheader {
   background-color:#184a45ff;
-}
-#divbody {
-  background-color:#7AA5B6;
-  padding-left: 25px;
-  padding-bottom: 500px;
-}
-#divbuttons {
-  background-color:#3D778D;
+  border: 1px solid;
 }
 h1 {
   color:white;margin:0;text-align:center
 }
-a.buttonlink:link, a.buttonlink:visited{
-  background-color: #9A0029;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border: 1.5px solid black;
+
+#divbuttons {
+  background-color:#3D778D;
 }
-a.buttonlink:hover, a.buttonlink.active {
-  background-color:#E3BF84;
-  color:black;
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3D778D;
+  border: 1px solid black;
+}
+li a.buttonlink {
+  float: left;
+  background-color: #9A0029;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+li a.buttonlink:hover {
+  background-color: #E3BF84;
+  color: black;
+}
+
+#divbody {
+  background-color:#7AA5B6;
+  padding-left: 25px;
+  padding-bottom: 500px;
+  border: 1px solid black;
 }
 h3 {
   color:black;
