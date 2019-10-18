@@ -7,7 +7,12 @@ body {
   border: 1px solid;
 }
 h1 {
-  color:white;margin:0;text-align:center
+  color:white;
+  margin-left:20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-family: Candara, serif;
 }
 
 #divbuttons {
@@ -27,10 +32,12 @@ li a.buttonlink {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 12px 18px;
   text-decoration: none;
   border-left: 1px solid black;
   border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: Verdana, serif;
 }
 li a.buttonlink:hover {
   background-color: #E3BF84;
@@ -47,14 +54,17 @@ h3 {
   color:black;
   margin-top:0px;
   margin-bottom:0px;
+  font-family: Candara, serif;
 }
 p.paragraph {
   color:black;
   text-align:left;
+  font-family: Candara, serif;
 }
 ul.paragraphlist {
- margin-left: 40px;
- margin-bottom: 10px;
- margin-top: 10px;
- padding: 0px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px;
+  font-family: Candara, serif;
 }
