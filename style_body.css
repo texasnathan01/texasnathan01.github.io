@@ -1,0 +1,29 @@
+body {
+  background-color:#9A0029;
+  margin:5;
+}
+
+#div_body {
+  background-color:#7AA5B6;
+  padding-left: 25px;
+  padding-bottom: 500px;
+  border: 1px solid black;
+}
+h3 {
+  color:black;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-family: Candara, serif;
+}
+.paragraph {
+  color:black;
+  text-align:left;
+  font-family: Candara, serif;
+}
+.paragraphlist {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px;
+  font-family: Candara, serif;
+}

@@ -1,0 +1,28 @@
+#div_navigation {
+  background-color:#3D778D;
+}
+.navigation_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3D778D;
+  border: 1px solid black;
+}
+.navigation_button {
+  float: left;
+  background-color: #9A0029;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: Verdana, serif;
+}
+.navigation_button:hover {
+  background-color: #E3BF84;
+  color: black;
+}
